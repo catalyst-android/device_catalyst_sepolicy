@@ -8,3 +8,5 @@ hal_client_domain(system_server, hal_lineage_touch)
 
 # App Lock
 add_service(system_server, applock_service);
+get_prop(system_server, default_prop)
+set_prop(system_server, default_prop)
